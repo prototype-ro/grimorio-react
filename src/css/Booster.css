@@ -91,8 +91,8 @@
 @keyframes sheen-move { from { background-position: 0% 0%; } to { background-position: 100% 100%; } }
 
 .reveal-actions { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
-.reveal-tag { position: absolute; left: 0; right: 0; bottom: -34px; display: flex; gap: 8px; justify-content: center; margin: 0; }
-.reveal-stage { padding-bottom: 28px; }
+/* Altura reservada: a etiqueta aparece sem empurrar os botoes. */
+.reveal-tag { display: flex; gap: 8px; justify-content: center; align-items: center; margin: 14px 0 0; min-height: 26px; }
 
 .rarity-pill, .new-pill {
   font-size: .72rem; font-weight: 800; padding: 3px 12px; border-radius: 999px; text-transform: uppercase; letter-spacing: .06em;
@@ -101,7 +101,7 @@
 .new-pill { background: var(--accent); color: var(--accent-ink); }
 
 /* ---------- Particulas ---------- */
-.burst { position: absolute; left: 50%; top: 42%; width: 0; height: 0; pointer-events: none; z-index: 2; }
+.burst { position: absolute; left: 50%; top: 40%; width: 0; height: 0; pointer-events: none; z-index: 2; }
 .burst i {
   position: absolute; left: 0; top: 0; width: var(--s); height: var(--s); margin: calc(var(--s) / -2); border-radius: 50%;
   background: var(--fx); box-shadow: 0 0 10px var(--fx); opacity: 0;

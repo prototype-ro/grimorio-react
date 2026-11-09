@@ -20,12 +20,14 @@ export default function RevealCard({ card, flipped, isNew, onClick }) {
         </span>
       </button>
       {flipped && <Burst rarity={card.rarity} />}
-      {flipped && (
-        <p className="reveal-tag" role="status">
-          <span className="rarity-pill" data-rarity={card.rarity}>{RARITY[card.rarity]}</span>
-          {isNew && <span className="new-pill">NOVA</span>}
-        </p>
-      )}
+      <p className="reveal-tag" role="status">
+        {flipped && (
+          <>
+            <span className="rarity-pill" data-rarity={card.rarity}>{RARITY[card.rarity]}</span>
+            {isNew && <span className="new-pill">NOVA</span>}
+          </>
+        )}
+      </p>
     </div>
   )
 }

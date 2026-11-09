@@ -98,7 +98,6 @@ export default function Booster({ cards, cardsById, onSelectCard }) {
             </button>
             <button type="button" className="btn ghost" onClick={() => setStage('done')}>Revelar todas</button>
           </div>
-          {flipped && <p className="meta">{current.name}</p>}
         </div>
       )}
 

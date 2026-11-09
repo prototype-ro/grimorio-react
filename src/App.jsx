@@ -6,6 +6,7 @@ import CardList from './components/CardList'
 import CardDetails from './components/CardDetails'
 import Pokedex from './components/Pokedex'
 import DeckList from './components/DeckList'
+import Booster from './components/Booster'
 import CompareBar from './components/CompareBar'
 import CompareModal from './components/CompareModal'
 import { useLocalStorage } from './hooks/useLocalStorage'
@@ -96,6 +97,7 @@ export default function App() {
         <nav className="tabs" aria-label="Seções">
           <button type="button" className={view === 'cards' ? 'active' : ''} aria-current={view === 'cards'} onClick={() => setView('cards')}>Cartas</button>
           <button type="button" className={view === 'decks' ? 'active' : ''} aria-current={view === 'decks'} onClick={() => setView('decks')}>Decks</button>
+          <button type="button" className={view === 'boosters' ? 'active' : ''} aria-current={view === 'boosters'} onClick={() => setView('boosters')}>Boosters</button>
         </nav>
         <div className="top-actions">
           <button type="button" className="btn ghost" onClick={random}>Carta aleatória</button>
@@ -141,6 +143,8 @@ export default function App() {
               <CardList cards={visible} favorites={favorites} onToggleFavorite={toggleFavorite} compareIds={compareIds} onToggleCompare={toggleCompare} onSelect={setSelectedId} onClear={clearFilters} />
             )}
           </>
+        ) : view === 'boosters' ? (
+          <Booster cards={cards} cardsById={cardsById} onSelectCard={setSelectedId} />
         ) : (
           <DeckList decks={decks} cardsById={cardsById} onSelectCard={setSelectedId} />
         )}

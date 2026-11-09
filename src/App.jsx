@@ -4,6 +4,7 @@ import SearchBar from './components/SearchBar'
 import ColorFilter from './components/ColorFilter'
 import CardList from './components/CardList'
 import CardDetails from './components/CardDetails'
+import Pokedex from './components/Pokedex'
 import DeckList from './components/DeckList'
 import CompareBar from './components/CompareBar'
 import CompareModal from './components/CompareModal'
@@ -33,6 +34,8 @@ export default function App() {
   const [sort, setSort] = useState('id')
   const [onlyFavs, setOnlyFavs] = useState(false)
   const [selectedId, setSelectedId] = useState(null)
+  const [layout, setLayout] = useLocalStorage('grimorio:layout', 'dex')
+  const [focusId, setFocusId] = useState(1)
   const [compareIds, setCompareIds] = useState([])
   const [compareOpen, setCompareOpen] = useState(false)
   const [favorites, setFavorites] = useLocalStorage('grimorio:favorites', [])
@@ -73,7 +76,16 @@ export default function App() {
     setOnlyFavs(false)
   }
 
-  const random = () => setSelectedId(cards[Math.floor(Math.random() * cards.length)].id)
+  const random = () => {
+    const id = cards[Math.floor(Math.random() * cards.length)].id
+    if (view === 'cards' && layout === 'dex') {
+      // Na Pokedex a carta sorteada pode estar fora do filtro atual: limpa antes.
+      clearFilters()
+      setFocusId(id)
+    } else {
+      setSelectedId(id)
+    }
+  }
   const selected = selectedId ? cardsById.get(selectedId) : null
 
   return (
@@ -104,13 +116,30 @@ export default function App() {
                   {SORTS.map((s) => <option key={s.value} value={s.value}>{s.label}</option>)}
                 </select>
               </label>
+              <div className="layout-toggle" role="group" aria-label="Modo de visualização">
+                <button type="button" className={`chip ${layout === 'dex' ? 'active' : ''}`} aria-pressed={layout === 'dex'} onClick={() => setLayout('dex')}>Pokédex</button>
+                <button type="button" className={`chip ${layout === 'grid' ? 'active' : ''}`} aria-pressed={layout === 'grid'} onClick={() => setLayout('grid')}>Grade</button>
+              </div>
               <button type="button" className={`chip ${onlyFavs ? 'active' : ''}`} aria-pressed={onlyFavs} onClick={() => setOnlyFavs(!onlyFavs)}>
                 ★ Favoritas ({favorites.length})
               </button>
             </div>
             <ColorFilter value={color} onChange={setColor} />
             <p className="count" role="status">{visible.length} de {cards.length} cartas</p>
-            <CardList cards={visible} favorites={favorites} onToggleFavorite={toggleFavorite} compareIds={compareIds} onToggleCompare={toggleCompare} onSelect={setSelectedId} onClear={clearFilters} />
+            {layout === 'dex' ? (
+              <Pokedex
+                cards={visible}
+                focusId={focusId}
+                onFocus={setFocusId}
+                favorites={favorites}
+                onToggleFavorite={toggleFavorite}
+                compareIds={compareIds}
+                onToggleCompare={toggleCompare}
+                onClear={clearFilters}
+              />
+            ) : (
+              <CardList cards={visible} favorites={favorites} onToggleFavorite={toggleFavorite} compareIds={compareIds} onToggleCompare={toggleCompare} onSelect={setSelectedId} onClear={clearFilters} />
+            )}
           </>
         ) : (
           <DeckList decks={decks} cardsById={cardsById} onSelectCard={setSelectedId} />

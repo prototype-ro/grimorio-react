@@ -37,6 +37,7 @@ Abra `http://localhost:5173` no navegador. Para gerar o build: `npm run build`.
 - Filtro por cor
 - Detalhes em modal: imagem, tipo, texto, raridade, set e barras de atributos
 - Seção Decks: 12 decks, com comandante, insígnias e cartas relacionadas (clique abre os detalhes da carta)
+- **Boosters**: abre pacotes de 5 cartas com animação (pacote rasga, cartas viradas uma a uma). Raridade define as probabilidades (o último slot garante rara ou mítica) e os efeitos: brilho e partículas em incomuns, raras e míticas, tremor de tela e flash nas raras e míticas. A coleção fica salva no `localStorage` e as cartas inéditas recebem o selo NOVA
 - Mensagem quando nenhuma carta é encontrada
 - Comparação de duas cartas lado a lado (botão ⇄ no card), com destaque no melhor valor de cada atributo
 - Extras: favoritos (salvos no `localStorage`), ordenação, carta aleatória, tema claro/escuro, layout responsivo

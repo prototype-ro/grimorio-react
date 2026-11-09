@@ -3,7 +3,7 @@ import ManaCost from './ManaCost'
 import { pad, dash } from '../utils/format'
 import { COLOR_INFO, cardColors } from '../utils/colors'
 
-export default function CardItem({ card, favorite, onToggleFavorite, onSelect }) {
+export default function CardItem({ card, favorite, onToggleFavorite, compared, onToggleCompare, onSelect }) {
   const tone = COLOR_INFO[cardColors(card)[0]].css
   return (
     <article className="card" style={{ '--tone': tone }}>
@@ -31,6 +31,15 @@ export default function CardItem({ card, favorite, onToggleFavorite, onSelect })
         onClick={() => onToggleFavorite(card.id)}
       >
         {favorite ? '★' : '☆'}
+      </button>
+      <button
+        type="button"
+        className={`cmp ${compared ? 'on' : ''}`}
+        aria-pressed={compared}
+        aria-label={compared ? `Remover ${card.name} da comparação` : `Comparar ${card.name}`}
+        onClick={() => onToggleCompare(card.id)}
+      >
+        ⇄
       </button>
     </article>
   )

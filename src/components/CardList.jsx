@@ -1,6 +1,6 @@
 import CardItem from './CardItem'
 
-export default function CardList({ cards, favorites, onToggleFavorite, onSelect, onClear }) {
+export default function CardList({ cards, favorites, onToggleFavorite, compareIds, onToggleCompare, onSelect, onClear }) {
   if (cards.length === 0) {
     return (
       <div className="empty" role="status">
@@ -17,6 +17,8 @@ export default function CardList({ cards, favorites, onToggleFavorite, onSelect,
           card={card}
           favorite={favorites.includes(card.id)}
           onToggleFavorite={onToggleFavorite}
+          compared={compareIds.includes(card.id)}
+          onToggleCompare={onToggleCompare}
           onSelect={onSelect}
         />
       ))}

@@ -5,6 +5,8 @@ import ColorFilter from './components/ColorFilter'
 import CardList from './components/CardList'
 import CardDetails from './components/CardDetails'
 import DeckList from './components/DeckList'
+import CompareBar from './components/CompareBar'
+import CompareModal from './components/CompareModal'
 import { useLocalStorage } from './hooks/useLocalStorage'
 import { matchesColor } from './utils/colors'
 import { statValue } from './utils/format'
@@ -31,6 +33,8 @@ export default function App() {
   const [sort, setSort] = useState('id')
   const [onlyFavs, setOnlyFavs] = useState(false)
   const [selectedId, setSelectedId] = useState(null)
+  const [compareIds, setCompareIds] = useState([])
+  const [compareOpen, setCompareOpen] = useState(false)
   const [favorites, setFavorites] = useLocalStorage('grimorio:favorites', [])
   const [theme, setTheme] = useLocalStorage('grimorio:theme', 'dark')
 
@@ -57,6 +61,11 @@ export default function App() {
 
   const toggleFavorite = (id) =>
     setFavorites((prev) => (prev.includes(id) ? prev.filter((f) => f !== id) : [...prev, id]))
+
+  // Maximo de 2 cartas: ao escolher uma terceira, a mais antiga sai.
+  const toggleCompare = (id) =>
+    setCompareIds((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id].slice(-2)))
+  const compareCards = compareIds.map((id) => cardsById.get(id))
 
   const clearFilters = () => {
     setQuery('')
@@ -101,7 +110,7 @@ export default function App() {
             </div>
             <ColorFilter value={color} onChange={setColor} />
             <p className="count" role="status">{visible.length} de {cards.length} cartas</p>
-            <CardList cards={visible} favorites={favorites} onToggleFavorite={toggleFavorite} onSelect={setSelectedId} onClear={clearFilters} />
+            <CardList cards={visible} favorites={favorites} onToggleFavorite={toggleFavorite} compareIds={compareIds} onToggleCompare={toggleCompare} onSelect={setSelectedId} onClear={clearFilters} />
           </>
         ) : (
           <DeckList decks={decks} cardsById={cardsById} onSelectCard={setSelectedId} />
@@ -111,6 +120,16 @@ export default function App() {
       <footer>
         Dados e imagens: <a href="https://scryfall.com" target="_blank" rel="noreferrer">Scryfall</a>. Magic: The Gathering é marca da Wizards of the Coast; projeto acadêmico sem fins lucrativos.
       </footer>
+
+      <CompareBar
+        cards={compareCards}
+        onRemove={toggleCompare}
+        onClear={() => setCompareIds([])}
+        onOpen={() => setCompareOpen(true)}
+      />
+      {compareOpen && compareCards.length === 2 && (
+        <CompareModal cards={compareCards} onClose={() => setCompareOpen(false)} />
+      )}
 
       {selected && (
         <CardDetails

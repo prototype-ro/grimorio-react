@@ -170,3 +170,38 @@ footer { padding: 32px 24px; text-align: center; color: var(--muted); font-size:
 @media (max-width: 420px) {
   .grid { grid-template-columns: 1fr; }
 }
+
+/* ---------- Comparacao ---------- */
+.cmp {
+  position: absolute; top: 8px; left: 8px; width: 40px; height: 40px; border-radius: 50%;
+  border: 1px solid var(--line); background: color-mix(in srgb, var(--bg) 80%, transparent);
+  font-size: 1.1rem; line-height: 1;
+}
+.cmp.on { color: var(--accent); border-color: var(--accent); }
+
+.compare-bar {
+  position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%); z-index: 5;
+  width: min(640px, calc(100% - 24px)); background: var(--surface); border: 1px solid var(--accent);
+  border-radius: 24px; padding: 10px 14px; display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap;
+}
+.compare-bar ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 10px; flex-wrap: wrap; }
+.compare-bar li { display: flex; align-items: center; gap: 8px; font-size: .85rem; font-weight: 600; }
+.compare-bar li img { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; }
+.compare-bar li button { background: none; border: 1px solid var(--line); border-radius: 50%; width: 28px; height: 28px; line-height: 1; }
+.compare-bar .hint { color: var(--muted); font-weight: 400; }
+.compare-actions { display: flex; gap: 8px; }
+.btn:disabled { opacity: .4; cursor: not-allowed; }
+main { padding-bottom: 96px; }
+
+.modal.compare { grid-template-columns: 1fr; max-width: 720px; }
+.compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.compare-head { display: grid; gap: 6px; justify-items: center; text-align: center; }
+.compare-head img { width: 100%; max-width: 240px; border-radius: 12px; }
+.compare-head h3 { font-size: 1.1rem; font-weight: 800; }
+.compare-table { width: 100%; border-collapse: collapse; font-family: "IBM Plex Mono", monospace; }
+.compare-table th { font-weight: 400; color: var(--muted); font-size: .8rem; text-align: center; font-family: "Bricolage Grotesque", sans-serif; }
+.compare-table td { text-align: center; padding: 10px 8px; border-top: 1px solid var(--line); width: 30%; font-size: 1.1rem; }
+.compare-table th { border-top: 1px solid var(--line); }
+.compare-table td.win { color: var(--accent); font-weight: 600; }
+.compare-table td.win::after { content: " ▲"; font-size: .7rem; }
+

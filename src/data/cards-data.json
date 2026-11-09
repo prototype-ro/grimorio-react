@@ -1,0 +1,1542 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "name": "Angel of Despair",
+      "manaCost": "{3}{W}{W}{B}{B}",
+      "manaValue": 7,
+      "typeLine": "Creature — Angel",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B",
+        "W"
+      ],
+      "colorIdentity": [
+        "B",
+        "W"
+      ],
+      "power": 5,
+      "toughness": 5,
+      "rarity": "uncommon",
+      "set": "Ultimate Masters",
+      "oracleText": "Flying\nWhen this creature enters, destroy target permanent.",
+      "edhrecRank": 5122,
+      "image": "https://cards.scryfall.io/normal/front/a/0/a07809b2-dabe-4242-84c3-fd640d7d5998.jpg?1783933778",
+      "art": "https://cards.scryfall.io/art_crop/front/a/0/a07809b2-dabe-4242-84c3-fd640d7d5998.jpg?1783933778",
+      "scryfall": "https://scryfall.com/card/uma/196/angel-of-despair?utm_source=api"
+    },
+    {
+      "id": 2,
+      "name": "Anguished Unmaking",
+      "manaCost": "{1}{W}{B}",
+      "manaValue": 3,
+      "typeLine": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "colors": [
+        "B",
+        "W"
+      ],
+      "colorIdentity": [
+        "B",
+        "W"
+      ],
+      "power": null,
+      "toughness": null,
+      "rarity": "rare",
+      "set": "Star Trek Commander",
+      "oracleText": "Exile target nonland permanent. You lose 3 life.",
+      "edhrecRank": 151,
+      "image": "https://cards.scryfall.io/normal/front/8/a/8a6357d2-f77c-4df7-90cd-6e416e6405cc.jpg?1793021105",
+      "art": "https://cards.scryfall.io/art_crop/front/8/a/8a6357d2-f77c-4df7-90cd-6e416e6405cc.jpg?1793021105",
+      "scryfall": "https://scryfall.com/card/trc/472/anguished-unmaking?utm_source=api"
+    },
+    {
+      "id": 3,
+      "name": "Atraxa, Praetors' Voice",
+      "manaCost": "{G}{W}{U}{B}",
+      "manaValue": 4,
+      "typeLine": "Legendary Creature — Phyrexian Angel Horror",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B",
+        "G",
+        "U",
+        "W"
+      ],
+      "colorIdentity": [
+        "B",
+        "G",
+        "U",
+        "W"
+      ],
+      "power": 4,
+      "toughness": 4,
+      "rarity": "mythic",
+      "set": "Double Masters",
+      "oracleText": "Flying, vigilance, deathtouch, lifelink\nAt the beginning of your end step, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+      "edhrecRank": 2356,
+      "image": "https://cards.scryfall.io/normal/front/d/0/d0d33d52-3d28-4635-b985-51e126289259.jpg?1783930136",
+      "art": "https://cards.scryfall.io/art_crop/front/d/0/d0d33d52-3d28-4635-b985-51e126289259.jpg?1783930136",
+      "scryfall": "https://scryfall.com/card/2xm/190/atraxa-praetors-voice?utm_source=api"
+    },
+    {
+      "id": 4,
+      "name": "Birds of Paradise",
+      "manaCost": "{G}",
+      "manaValue": 1,
+      "typeLine": "Creature — Bird",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "power": 0,
+      "toughness": 1,
+      "rarity": "rare",
+      "set": "Marvel Super Heroes Commander",
+      "oracleText": "Flying\n{T}: Add one mana of any color.",
+      "edhrecRank": 35,
+      "image": "https://cards.scryfall.io/normal/front/4/9/492c2f9a-51e7-4e0f-9899-23bf43ea988b.jpg?1783903230",
+      "art": "https://cards.scryfall.io/art_crop/front/4/9/492c2f9a-51e7-4e0f-9899-23bf43ea988b.jpg?1783903230",
+      "scryfall": "https://scryfall.com/card/msc/170/birds-of-paradise?utm_source=api"
+    },
+    {
+      "id": 5,
+      "name": "Blood Artist",
+      "manaCost": "{1}{B}",
+      "manaValue": 2,
+      "typeLine": "Creature — Vampire",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "power": 0,
+      "toughness": 1,
+      "rarity": "uncommon",
+      "set": "Secrets of Strixhaven Commander",
+      "oracleText": "Whenever this creature or another creature dies, target player loses 1 life and you gain 1 life.",
+      "edhrecRank": 145,
+      "image": "https://cards.scryfall.io/normal/front/b/5/b5275d76-2947-4219-be21-614c7421614a.jpg?1783903786",
+      "art": "https://cards.scryfall.io/art_crop/front/b/5/b5275d76-2947-4219-be21-614c7421614a.jpg?1783903786",
+      "scryfall": "https://scryfall.com/card/soc/209/blood-artist?utm_source=api"
+    },
+    {
+      "id": 6,
+      "name": "Bloodthirsty Aerialist",
+      "manaCost": "{1}{B}{B}",
+      "manaValue": 3,
+      "typeLine": "Creature — Vampire Rogue",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "power": 2,
+      "toughness": 3,
+      "rarity": "uncommon",
+      "set": "Foundations Jumpstart",
+      "oracleText": "Flying\nWhenever you gain life, put a +1/+1 counter on this creature.",
+      "edhrecRank": 6899,
+      "image": "https://cards.scryfall.io/normal/front/1/5/156fce8f-1a7e-49eb-a9dd-6402373ab63e.jpg?1783908738",
+      "art": "https://cards.scryfall.io/art_crop/front/1/5/156fce8f-1a7e-49eb-a9dd-6402373ab63e.jpg?1783908738",
+      "scryfall": "https://scryfall.com/card/j25/409/bloodthirsty-aerialist?utm_source=api"
+    },
+    {
+      "id": 7,
+      "name": "Bogardan Hellkite",
+      "manaCost": "{6}{R}{R}",
+      "manaValue": 8,
+      "typeLine": "Creature — Dragon",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "power": 5,
+      "toughness": 5,
+      "rarity": "mythic",
+      "set": "Forgotten Realms Commander",
+      "oracleText": "Flash\nFlying\nWhen this creature enters, it deals 5 damage divided as you choose among any number of targets.",
+      "edhrecRank": 8706,
+      "image": "https://cards.scryfall.io/normal/front/2/2/22dd2242-2fd8-4752-886c-fc6dbabcf89a.jpg?1783926211",
+      "art": "https://cards.scryfall.io/art_crop/front/2/2/22dd2242-2fd8-4752-886c-fc6dbabcf89a.jpg?1783926211",
+      "scryfall": "https://scryfall.com/card/afc/115/bogardan-hellkite?utm_source=api"
+    },
+    {
+      "id": 8,
+      "name": "Cabal Stronghold",
+      "manaCost": "",
+      "manaValue": 0,
+      "typeLine": "Land",
+      "types": [
+        "Land"
+      ],
+      "colors": [],
+      "colorIdentity": [
+        "B"
+      ],
+      "power": null,
+      "toughness": null,
+      "rarity": "rare",
+      "set": "Dominaria",
+      "oracleText": "{T}: Add {C}.\n{3}, {T}: Add {B} for each basic Swamp you control.",
+      "edhrecRank": 974,
+      "image": "https://cards.scryfall.io/normal/front/0/b/0bda51ef-ee3e-48d4-92e2-c9083bbe0f80.jpg?1783934950",
+      "art": "https://cards.scryfall.io/art_crop/front/0/b/0bda51ef-ee3e-48d4-92e2-c9083bbe0f80.jpg?1783934950",
+      "scryfall": "https://scryfall.com/card/dom/238/cabal-stronghold?utm_source=api"
+    },
+    {
+      "id": 9,
+      "name": "Changeling Outcast",
+      "manaCost": "{B}",
+      "manaValue": 1,
+      "typeLine": "Creature — Shapeshifter",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "power": 1,
+      "toughness": 1,
+      "rarity": "common",
+      "set": "Outlaws of Thunder Junction Commander",
+      "oracleText": "Changeling (This card is every creature type.)\nThis creature can't block and can't be blocked.",
+      "edhrecRank": 690,
+      "image": "https://cards.scryfall.io/normal/front/a/b/ab499df5-ed76-43ad-81b3-70afd0487ccd.jpg?1783911932",
+      "art": "https://cards.scryfall.io/art_crop/front/a/b/ab499df5-ed76-43ad-81b3-70afd0487ccd.jpg?1783911932",
+      "scryfall": "https://scryfall.com/card/otc/128/changeling-outcast?utm_source=api"
+    },
+    {
+      "id": 10,
+      "name": "Chaos Warp",
+      "manaCost": "{2}{R}",
+      "manaValue": 3,
+      "typeLine": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "power": null,
+      "toughness": null,
+      "rarity": "rare",
+      "set": "Mystery Booster Commander Edition",
+      "oracleText": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
+      "edhrecRank": 29,
+      "image": "https://cards.scryfall.io/normal/front/f/b/fb8d8106-b9bd-405c-886e-72fc301c65e1.jpg?1787743253",
+      "art": "https://cards.scryfall.io/art_crop/front/f/b/fb8d8106-b9bd-405c-886e-72fc301c65e1.jpg?1787743253",
+      "scryfall": "https://scryfall.com/card/mbc/72/chaos-warp?utm_source=api"
+    },
+    {
+      "id": 11,
+      "name": "Cultivate",
+      "manaCost": "{2}{G}",
+      "manaValue": 3,
+      "typeLine": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "power": null,
+      "toughness": null,
+      "rarity": "uncommon",
+      "set": "Star Trek Commander",
+      "oracleText": "Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.",
+      "edhrecRank": 20,
+      "image": "https://cards.scryfall.io/normal/front/a/7/a78f5d3f-74d6-4ec1-89c4-e24639d3f4ba.jpg?1793281380",
+      "art": "https://cards.scryfall.io/art_crop/front/a/7/a78f5d3f-74d6-4ec1-89c4-e24639d3f4ba.jpg?1793281380",
+      "scryfall": "https://scryfall.com/card/trc/460/cultivate?utm_source=api"
+    },
+    {
+      "id": 12,
+      "name": "Cyclonic Rift",
+      "manaCost": "{1}{U}",
+      "manaValue": 2,
+      "typeLine": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "power": null,
+      "toughness": null,
+      "rarity": "mythic",
+      "set": "Ravnica Remastered",
+      "oracleText": "Return target nonland permanent you don't control to its owner's hand.\nOverload {6}{U} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
+      "edhrecRank": 58,
+      "image": "https://cards.scryfall.io/normal/front/d/f/dfb7c4b9-f2f4-4d4e-baf2-86551c8150fe.jpg?1783913339",
+      "art": "https://cards.scryfall.io/art_crop/front/d/f/dfb7c4b9-f2f4-4d4e-baf2-86551c8150fe.jpg?1783913339",
+      "scryfall": "https://scryfall.com/card/rvr/40/cyclonic-rift?utm_source=api"
+    },
+    {
+      "id": 13,
+      "name": "Dark Ritual",
+      "manaCost": "{B}",
+      "manaValue": 1,
+      "typeLine": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "power": null,
+      "toughness": null,
+      "rarity": "uncommon",
+      "set": "Marvel Super Heroes Commander",
+      "oracleText": "Add {B}{B}{B}.",
+      "edhrecRank": 34,
+      "image": "https://cards.scryfall.io/normal/front/1/1/11e12a84-e7be-4afc-a230-c2e644743fa8.jpg?1783903013",
+      "art": "https://cards.scryfall.io/art_crop/front/1/1/11e12a84-e7be-4afc-a230-c2e644743fa8.jpg?1783903013",
+      "scryfall": "https://scryfall.com/card/msc/793/dark-ritual?utm_source=api"
+    },
+    {
+      "id": 14,
+      "name": "Deepglow Skate",
+      "manaCost": "{4}{U}",
+      "manaValue": 5,
+      "typeLine": "Creature — Fish",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "power": 3,
+      "toughness": 3,
+      "rarity": "rare",
+      "set": "Edge of Eternities Commander",
+      "oracleText": "When this creature enters, double the number of each kind of counter on any number of target permanents.",
+      "edhrecRank": 1682,
+      "image": "https://cards.scryfall.io/normal/front/6/f/6fb36f7b-6d31-413d-8392-ae4f8ca3c0c4.jpg?1783906045",
+      "art": "https://cards.scryfall.io/art_crop/front/6/f/6fb36f7b-6d31-413d-8392-ae4f8ca3c0c4.jpg?1783906045",
+      "scryfall": "https://scryfall.com/card/eoc/70/deepglow-skate?utm_source=api"
+    },
+    {
+      "id": 15,
+      "name": "Doubling Season",
+      "manaCost": "{4}{G}",
+      "manaValue": 5,
+      "typeLine": "Enchantment",
+      "types": [
+        "Enchantment"
+      ],
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "power": null,
+      "toughness": null,
+      "rarity": "mythic",
+      "set": "Foundations",
+      "oracleText": "If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.\nIf an effect would put one or more counters on a permanent you control, it puts twice that many of those counters on that permanent instead.",
+      "edhrecRank": 186,
+      "image": "https://cards.scryfall.io/normal/front/f/2/f2c4f80e-84a0-463b-82c3-5c6503809351.jpg?1783909062",
+      "art": "https://cards.scryfall.io/art_crop/front/f/2/f2c4f80e-84a0-463b-82c3-5c6503809351.jpg?1783909062",
+      "scryfall": "https://scryfall.com/card/fdn/216/doubling-season?utm_source=api"
+    },
+    {
+      "id": 16,
+      "name": "Edgar Markov",
+      "manaCost": "{3}{R}{W}{B}",
+      "manaValue": 6,
+      "typeLine": "Legendary Creature — Vampire Knight",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "colorIdentity": [
+        "B",
+        "R",
+        "W"
+      ],
+      "power": 4,
+      "toughness": 4,
+      "rarity": "mythic",
+      "set": "Innistrad Remastered",
+      "oracleText": "Eminence — Whenever you cast another Vampire spell, if Edgar is in the command zone or on the battlefield, create a 1/1 black Vampire creature token.\nFirst strike, haste\nWhenever Edgar attacks, put a +1/+1 counter on each Vampire you control.",
+      "edhrecRank": 3173,
+      "image": "https://cards.scryfall.io/normal/front/a/5/a577ba08-0aa8-45be-aa83-d5078770127c.jpg?1783908078",
+      "art": "https://cards.scryfall.io/art_crop/front/a/5/a577ba08-0aa8-45be-aa83-d5078770127c.jpg?1783908078",
+      "scryfall": "https://scryfall.com/card/inr/234/edgar-markov?utm_source=api"
+    },
+    {
+      "id": 17,
+      "name": "Eternal Witness",
+      "manaCost": "{1}{G}{G}",
+      "manaValue": 3,
+      "typeLine": "Creature — Human Shaman",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "power": 2,
+      "toughness": 1,
+      "rarity": "uncommon",
+      "set": "Commander Masters",
+      "oracleText": "When this creature enters, you may return target card from your graveyard to your hand.",
+      "edhrecRank": 121,
+      "image": "https://cards.scryfall.io/normal/front/3/9/39704000-65d3-4d39-849e-a3b617376bbc.jpg?1783915632",
+      "art": "https://cards.scryfall.io/art_crop/front/3/9/39704000-65d3-4d39-849e-a3b617376bbc.jpg?1783915632",
+      "scryfall": "https://scryfall.com/card/cmm/286/eternal-witness?utm_source=api"
+    },
+    {
+      "id": 18,
+      "name": "Ezuri, Renegade Leader",
+      "manaCost": "{1}{G}{G}",
+      "manaValue": 3,
+      "typeLine": "Legendary Creature — Elf Warrior",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "power": 2,
+      "toughness": 2,
+      "rarity": "mythic",
+      "set": "Duel Decks: Elves vs. Inventors",
+      "oracleText": "{G}: Regenerate another target Elf.\n{2}{G}{G}{G}: Elf creatures you control get +3/+3 and gain trample until end of turn.",
+      "edhrecRank": 2338,
+      "image": "https://cards.scryfall.io/normal/front/8/a/8a448dbf-08a1-4145-a4b2-0265cc9f2e53.jpg?1783935094",
+      "art": "https://cards.scryfall.io/art_crop/front/8/a/8a448dbf-08a1-4145-a4b2-0265cc9f2e53.jpg?1783935094",
+      "scryfall": "https://scryfall.com/card/ddu/1/ezuri-renegade-leader?utm_source=api"
+    },
+    {
+      "id": 19,
+      "name": "Falkenrath Noble",
+      "manaCost": "{3}{B}",
+      "manaValue": 4,
+      "typeLine": "Creature — Vampire Noble",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "power": 2,
+      "toughness": 2,
+      "rarity": "uncommon",
+      "set": "Foundations Jumpstart",
+      "oracleText": "Flying\nWhenever this creature or another creature dies, target player loses 1 life and you gain 1 life.",
+      "edhrecRank": 2076,
+      "image": "https://cards.scryfall.io/normal/front/2/d/2d97757e-f1fb-4ce6-9e14-3deedda7a03a.jpg?1783908726",
+      "art": "https://cards.scryfall.io/art_crop/front/2/d/2d97757e-f1fb-4ce6-9e14-3deedda7a03a.jpg?1783908726",
+      "scryfall": "https://scryfall.com/card/j25/441/falkenrath-noble?utm_source=api"
+    },
+    {
+      "id": 20,
+      "name": "Ghave, Guru of Spores",
+      "manaCost": "{2}{W}{B}{G}",
+      "manaValue": 5,
+      "typeLine": "Legendary Creature — Fungus Shaman",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "colorIdentity": [
+        "B",
+        "G",
+        "W"
+      ],
+      "power": 0,
+      "toughness": 0,
+      "rarity": "mythic",
+      "set": "Double Masters 2022",
+      "oracleText": "Ghave enters with five +1/+1 counters on it.\n{1}, Remove a +1/+1 counter from a creature you control: Create a 1/1 green Saproling creature token.\n{1}, Sacrifice a creature: Put a +1/+1 counter on target creature.",
+      "edhrecRank": 9913,
+      "image": "https://cards.scryfall.io/normal/front/c/2/c2be0e99-cf43-423f-974f-02e3313b3aa9.jpg?1783921836",
+      "art": "https://cards.scryfall.io/art_crop/front/c/2/c2be0e99-cf43-423f-974f-02e3313b3aa9.jpg?1783921836",
+      "scryfall": "https://scryfall.com/card/2x2/216/ghave-guru-of-spores?utm_source=api"
+    },
+    {
+      "id": 21,
+      "name": "Gray Merchant of Asphodel",
+      "manaCost": "{3}{B}{B}",
+      "manaValue": 5,
+      "typeLine": "Creature — Zombie",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "power": 2,
+      "toughness": 4,
+      "rarity": "uncommon",
+      "set": "Duskmourn: House of Horror Commander",
+      "oracleText": "When this creature enters, each opponent loses X life, where X is your devotion to black. You gain life equal to the life lost this way. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)",
+      "edhrecRank": 241,
+      "image": "https://cards.scryfall.io/normal/front/0/0/00d001d0-fd29-4b7c-9d0e-9131b995f910.jpg?1783909617",
+      "art": "https://cards.scryfall.io/art_crop/front/0/0/00d001d0-fd29-4b7c-9d0e-9131b995f910.jpg?1783909617",
+      "scryfall": "https://scryfall.com/card/dsc/142/gray-merchant-of-asphodel?utm_source=api"
+    },
+    {
+      "id": 22,
+      "name": "Inferno Titan",
+      "manaCost": "{4}{R}{R}",
+      "manaValue": 6,
+      "typeLine": "Creature — Giant",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "power": 6,
+      "toughness": 6,
+      "rarity": "mythic",
+      "set": "The Hobbit Eternal",
+      "oracleText": "{R}: This creature gets +1/+0 until end of turn.\nWhenever this creature enters or attacks, it deals 3 damage divided as you choose among one, two, or three targets.",
+      "edhrecRank": 3218,
+      "image": "https://cards.scryfall.io/normal/front/f/8/f839aadb-084e-4ddc-ba62-d654a695cc6b.jpg?1785497564",
+      "art": "https://cards.scryfall.io/art_crop/front/f/8/f839aadb-084e-4ddc-ba62-d654a695cc6b.jpg?1785497564",
+      "scryfall": "https://scryfall.com/card/hoc/198/inferno-titan?utm_source=api"
+    },
+    {
+      "id": 23,
+      "name": "Kaalia of the Vast",
+      "manaCost": "{1}{R}{W}{B}",
+      "manaValue": 4,
+      "typeLine": "Legendary Creature — Human Cleric",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "colorIdentity": [
+        "B",
+        "R",
+        "W"
+      ],
+      "power": 2,
+      "toughness": 2,
+      "rarity": "mythic",
+      "set": "Modern Horizons 3",
+      "oracleText": "Flying\nWhenever Kaalia attacks an opponent, you may put an Angel, Demon, or Dragon creature card from your hand onto the battlefield tapped and attacking that opponent.",
+      "edhrecRank": 3502,
+      "image": "https://cards.scryfall.io/normal/front/e/7/e71c8c39-3fbb-4a42-9cf6-b3224f5a56fc.jpg?1783911211",
+      "art": "https://cards.scryfall.io/art_crop/front/e/7/e71c8c39-3fbb-4a42-9cf6-b3224f5a56fc.jpg?1783911211",
+      "scryfall": "https://scryfall.com/card/mh3/290/kaalia-of-the-vast?utm_source=api"
+    },
+    {
+      "id": 24,
+      "name": "Korvold, Fae-Cursed King",
+      "manaCost": "{2}{B}{R}{G}",
+      "manaValue": 5,
+      "typeLine": "Legendary Creature — Dragon Noble",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "colorIdentity": [
+        "B",
+        "G",
+        "R"
+      ],
+      "power": 4,
+      "toughness": 4,
+      "rarity": "mythic",
+      "set": "Edge of Eternities Commander",
+      "oracleText": "Flying\nWhenever Korvold enters or attacks, sacrifice another permanent.\nWhenever you sacrifice a permanent, put a +1/+1 counter on Korvold and draw a card.",
+      "edhrecRank": 1827,
+      "image": "https://cards.scryfall.io/normal/front/6/0/607c1793-8e5a-4ebf-87c6-7f9c99bbd29a.jpg?1783906027",
+      "art": "https://cards.scryfall.io/art_crop/front/6/0/607c1793-8e5a-4ebf-87c6-7f9c99bbd29a.jpg?1783906027",
+      "scryfall": "https://scryfall.com/card/eoc/120/korvold-fae-cursed-king?utm_source=api"
+    },
+    {
+      "id": 25,
+      "name": "Lightning Bolt",
+      "manaCost": "{R}",
+      "manaValue": 1,
+      "typeLine": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "power": null,
+      "toughness": null,
+      "rarity": "uncommon",
+      "set": "Marvel Super Heroes Commander",
+      "oracleText": "Lightning Bolt deals 3 damage to any target.",
+      "edhrecRank": 158,
+      "image": "https://cards.scryfall.io/normal/front/7/6/7673784e-db4b-43a1-8d55-1bb9fc1e284f.jpg?1783903008",
+      "art": "https://cards.scryfall.io/art_crop/front/7/6/7673784e-db4b-43a1-8d55-1bb9fc1e284f.jpg?1783903008",
+      "scryfall": "https://scryfall.com/card/msc/806/lightning-bolt?utm_source=api"
+    },
+    {
+      "id": 26,
+      "name": "Mayhem Devil",
+      "manaCost": "{1}{B}{R}",
+      "manaValue": 3,
+      "typeLine": "Creature — Devil",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B",
+        "R"
+      ],
+      "colorIdentity": [
+        "B",
+        "R"
+      ],
+      "power": 3,
+      "toughness": 3,
+      "rarity": "uncommon",
+      "set": "Edge of Eternities Commander",
+      "oracleText": "Whenever a player sacrifices a permanent, this creature deals 1 damage to any target.",
+      "edhrecRank": 572,
+      "image": "https://cards.scryfall.io/normal/front/6/7/674f3a8a-4552-4289-b92a-06ce158f115c.jpg?1783906026",
+      "art": "https://cards.scryfall.io/art_crop/front/6/7/674f3a8a-4552-4289-b92a-06ce158f115c.jpg?1783906026",
+      "scryfall": "https://scryfall.com/card/eoc/121/mayhem-devil?utm_source=api"
+    },
+    {
+      "id": 27,
+      "name": "Meren of Clan Nel Toth",
+      "manaCost": "{2}{B}{G}",
+      "manaValue": 4,
+      "typeLine": "Legendary Creature — Human Shaman",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B",
+        "G"
+      ],
+      "colorIdentity": [
+        "B",
+        "G"
+      ],
+      "power": 3,
+      "toughness": 4,
+      "rarity": "mythic",
+      "set": "Tarkir: Dragonstorm Commander",
+      "oracleText": "Whenever another creature you control dies, you get an experience counter.\nAt the beginning of your end step, choose target creature card in your graveyard. If that card's mana value is less than or equal to the number of experience counters you have, return it to the battlefield. Otherwise, put it into your hand.",
+      "edhrecRank": 1517,
+      "image": "https://cards.scryfall.io/normal/front/5/0/508b1442-bf2c-4ad6-9bcf-bd894e081ab6.jpg?1783907026",
+      "art": "https://cards.scryfall.io/art_crop/front/5/0/508b1442-bf2c-4ad6-9bcf-bd894e081ab6.jpg?1783907026",
+      "scryfall": "https://scryfall.com/card/tdc/297/meren-of-clan-nel-toth?utm_source=api"
+    },
+    {
+      "id": 28,
+      "name": "Mind Stone",
+      "manaCost": "{2}",
+      "manaValue": 2,
+      "typeLine": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "colors": [],
+      "colorIdentity": [],
+      "power": null,
+      "toughness": null,
+      "rarity": "uncommon",
+      "set": "Star Trek Commander",
+      "oracleText": "{T}: Add {C}.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
+      "edhrecRank": 32,
+      "image": "https://cards.scryfall.io/normal/front/0/9/091600ae-6578-4353-8e0f-d170f555bcd0.jpg?1793965409",
+      "art": "https://cards.scryfall.io/art_crop/front/0/9/091600ae-6578-4353-8e0f-d170f555bcd0.jpg?1793965409",
+      "scryfall": "https://scryfall.com/card/trc/497/mind-stone?utm_source=api"
+    },
+    {
+      "id": 29,
+      "name": "Muldrotha, the Gravetide",
+      "manaCost": "{3}{B}{G}{U}",
+      "manaValue": 6,
+      "typeLine": "Legendary Creature — Elemental Avatar",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "colorIdentity": [
+        "B",
+        "G",
+        "U"
+      ],
+      "power": 6,
+      "toughness": 6,
+      "rarity": "mythic",
+      "set": "Lorwyn Eclipsed Commander",
+      "oracleText": "During each of your turns, you may play a land and cast a permanent spell of each permanent type from your graveyard. (If a card has multiple permanent types, choose one as you play it.)",
+      "edhrecRank": 1099,
+      "image": "https://cards.scryfall.io/normal/front/7/0/705b4d97-2f50-47f7-9053-d748f4337553.jpg?1783904538",
+      "art": "https://cards.scryfall.io/art_crop/front/7/0/705b4d97-2f50-47f7-9053-d748f4337553.jpg?1783904538",
+      "scryfall": "https://scryfall.com/card/ecc/128/muldrotha-the-gravetide?utm_source=api"
+    },
+    {
+      "id": 30,
+      "name": "Mulldrifter",
+      "manaCost": "{4}{U}",
+      "manaValue": 5,
+      "typeLine": "Creature — Elemental",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "power": 2,
+      "toughness": 2,
+      "rarity": "uncommon",
+      "set": "Lorwyn Eclipsed Commander",
+      "oracleText": "Flying\nWhen this creature enters, draw two cards.\nEvoke {2}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)",
+      "edhrecRank": 606,
+      "image": "https://cards.scryfall.io/normal/front/3/d/3de308cc-14ac-407e-99e7-568572ecd0e7.jpg?1783904564",
+      "art": "https://cards.scryfall.io/art_crop/front/3/d/3de308cc-14ac-407e-99e7-568572ecd0e7.jpg?1783904564",
+      "scryfall": "https://scryfall.com/card/ecc/67/mulldrifter?utm_source=api"
+    },
+    {
+      "id": 31,
+      "name": "Mystic Snake",
+      "manaCost": "{1}{G}{U}{U}",
+      "manaValue": 4,
+      "typeLine": "Creature — Snake",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "G",
+        "U"
+      ],
+      "colorIdentity": [
+        "G",
+        "U"
+      ],
+      "power": 2,
+      "toughness": 2,
+      "rarity": "rare",
+      "set": "Masters 25",
+      "oracleText": "Flash\nWhen this creature enters, counter target spell.",
+      "edhrecRank": 5917,
+      "image": "https://cards.scryfall.io/normal/front/2/d/2d4bacd1-b602-4bcc-9aea-1229949a7d20.jpg?1783935114",
+      "art": "https://cards.scryfall.io/art_crop/front/2/d/2d4bacd1-b602-4bcc-9aea-1229949a7d20.jpg?1783935114",
+      "scryfall": "https://scryfall.com/card/a25/208/mystic-snake?utm_source=api"
+    },
+    {
+      "id": 32,
+      "name": "Ninja of the Deep Hours",
+      "manaCost": "{3}{U}",
+      "manaValue": 4,
+      "typeLine": "Creature — Human Ninja",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "power": 2,
+      "toughness": 2,
+      "rarity": "common",
+      "set": "Foundations Jumpstart",
+      "oracleText": "Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever this creature deals combat damage to a player, you may draw a card.",
+      "edhrecRank": 3684,
+      "image": "https://cards.scryfall.io/normal/front/f/b/fb245a12-4cbd-4291-af67-f3677ca822dc.jpg?1783908836",
+      "art": "https://cards.scryfall.io/art_crop/front/f/b/fb245a12-4cbd-4291-af67-f3677ca822dc.jpg?1783908836",
+      "scryfall": "https://scryfall.com/card/j25/108/ninja-of-the-deep-hours?utm_source=api"
+    },
+    {
+      "id": 33,
+      "name": "Prosper, Tome-Bound",
+      "manaCost": "{2}{B}{R}",
+      "manaValue": 4,
+      "typeLine": "Legendary Creature — Tiefling Warlock",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B",
+        "R"
+      ],
+      "colorIdentity": [
+        "B",
+        "R"
+      ],
+      "power": 1,
+      "toughness": 4,
+      "rarity": "mythic",
+      "set": "Forgotten Realms Commander",
+      "oracleText": "Deathtouch\nMystic Arcanum — At the beginning of your end step, exile the top card of your library. Until the end of your next turn, you may play that card.\nPact Boon — Whenever you play a card from exile, create a Treasure token.",
+      "edhrecRank": 2174,
+      "image": "https://cards.scryfall.io/normal/front/d/7/d743336e-d5c7-4053-a23d-92ec7581f74e.jpg?1783926259",
+      "art": "https://cards.scryfall.io/art_crop/front/d/7/d743336e-d5c7-4053-a23d-92ec7581f74e.jpg?1783926259",
+      "scryfall": "https://scryfall.com/card/afc/2/prosper-tome-bound?utm_source=api"
+    },
+    {
+      "id": 34,
+      "name": "Reanimate",
+      "manaCost": "{B}",
+      "manaValue": 1,
+      "typeLine": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "power": null,
+      "toughness": null,
+      "rarity": "rare",
+      "set": "Duskmourn: House of Horror Commander",
+      "oracleText": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to that card's mana value.",
+      "edhrecRank": 53,
+      "image": "https://cards.scryfall.io/normal/front/3/6/368b6903-5fc4-43e7-bd44-46b8107c8bb4.jpg?1783909614",
+      "art": "https://cards.scryfall.io/art_crop/front/3/6/368b6903-5fc4-43e7-bd44-46b8107c8bb4.jpg?1783909614",
+      "scryfall": "https://scryfall.com/card/dsc/155/reanimate?utm_source=api"
+    },
+    {
+      "id": 35,
+      "name": "Reclamation Sage",
+      "manaCost": "{2}{G}",
+      "manaValue": 3,
+      "typeLine": "Creature — Elf Shaman",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "power": 2,
+      "toughness": 1,
+      "rarity": "uncommon",
+      "set": "Foundations",
+      "oracleText": "When this creature enters, you may destroy target artifact or enchantment.",
+      "edhrecRank": 335,
+      "image": "https://cards.scryfall.io/normal/front/1/9/1918ea65-ab7f-4d40-97fd-a656c892a2a1.jpg?1783909055",
+      "art": "https://cards.scryfall.io/art_crop/front/1/9/1918ea65-ab7f-4d40-97fd-a656c892a2a1.jpg?1783909055",
+      "scryfall": "https://scryfall.com/card/fdn/231/reclamation-sage?utm_source=api"
+    },
+    {
+      "id": 36,
+      "name": "Restoration Angel",
+      "manaCost": "{3}{W}",
+      "manaValue": 4,
+      "typeLine": "Creature — Angel",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "power": 3,
+      "toughness": 4,
+      "rarity": "rare",
+      "set": "Innistrad Remastered",
+      "oracleText": "Flash\nFlying\nWhen this creature enters, you may exile target non-Angel creature you control, then return that card to the battlefield under your control.",
+      "edhrecRank": 1375,
+      "image": "https://cards.scryfall.io/normal/front/f/1/f17f85d3-58e5-4128-90c5-98b524256af8.jpg?1783908175",
+      "art": "https://cards.scryfall.io/art_crop/front/f/1/f17f85d3-58e5-4128-90c5-98b524256af8.jpg?1783908175",
+      "scryfall": "https://scryfall.com/card/inr/38/restoration-angel?utm_source=api"
+    },
+    {
+      "id": 37,
+      "name": "Rhystic Study",
+      "manaCost": "{2}{U}",
+      "manaValue": 3,
+      "typeLine": "Enchantment",
+      "types": [
+        "Enchantment"
+      ],
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "power": null,
+      "toughness": null,
+      "rarity": "rare",
+      "set": "Jumpstart 2022",
+      "oracleText": "Whenever an opponent casts a spell, you may draw a card unless that player pays {1}.",
+      "edhrecRank": 46,
+      "image": "https://cards.scryfall.io/normal/front/9/f/9f37c5b6-a59c-45cd-9a99-e9357fe9ea1b.jpg?1783919146",
+      "art": "https://cards.scryfall.io/art_crop/front/9/f/9f37c5b6-a59c-45cd-9a99-e9357fe9ea1b.jpg?1783919146",
+      "scryfall": "https://scryfall.com/card/j22/114/rhystic-study?utm_source=api"
+    },
+    {
+      "id": 38,
+      "name": "Sakura-Tribe Elder",
+      "manaCost": "{1}{G}",
+      "manaValue": 2,
+      "typeLine": "Creature — Snake Shaman",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "power": 1,
+      "toughness": 1,
+      "rarity": "common",
+      "set": "Secrets of Strixhaven Commander",
+      "oracleText": "Sacrifice this creature: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+      "edhrecRank": 118,
+      "image": "https://cards.scryfall.io/normal/front/7/a/7a8b1c49-8594-426d-b585-41140235bb0e.jpg?1783903761",
+      "art": "https://cards.scryfall.io/art_crop/front/7/a/7a8b1c49-8594-426d-b585-41140235bb0e.jpg?1783903761",
+      "scryfall": "https://scryfall.com/card/soc/285/sakura-tribe-elder?utm_source=api"
+    },
+    {
+      "id": 39,
+      "name": "Sanguine Bond",
+      "manaCost": "{3}{B}{B}",
+      "manaValue": 5,
+      "typeLine": "Enchantment",
+      "types": [
+        "Enchantment"
+      ],
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "power": null,
+      "toughness": null,
+      "rarity": "rare",
+      "set": "Commander 2021",
+      "oracleText": "Whenever you gain life, target opponent loses that much life.",
+      "edhrecRank": 506,
+      "image": "https://cards.scryfall.io/normal/front/a/d/ad4de9f1-7a39-45af-828e-c59234d9e9b9.jpg?1783927550",
+      "art": "https://cards.scryfall.io/art_crop/front/a/d/ad4de9f1-7a39-45af-828e-c59234d9e9b9.jpg?1783927550",
+      "scryfall": "https://scryfall.com/card/c21/153/sanguine-bond?utm_source=api"
+    },
+    {
+      "id": 40,
+      "name": "Shivan Dragon",
+      "manaCost": "{4}{R}{R}",
+      "manaValue": 6,
+      "typeLine": "Creature — Dragon",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "power": 5,
+      "toughness": 5,
+      "rarity": "uncommon",
+      "set": "Foundations",
+      "oracleText": "Flying\n{R}: This creature gets +1/+0 until end of turn.",
+      "edhrecRank": 11186,
+      "image": "https://cards.scryfall.io/normal/front/7/0/702c4781-670b-49ae-b511-90ed119841b0.jpg?1787562519",
+      "art": "https://cards.scryfall.io/art_crop/front/7/0/702c4781-670b-49ae-b511-90ed119841b0.jpg?1787562519",
+      "scryfall": "https://scryfall.com/card/fdn/763/shivan-dragon?utm_source=api"
+    },
+    {
+      "id": 41,
+      "name": "Skullclamp",
+      "manaCost": "{1}",
+      "manaValue": 1,
+      "typeLine": "Artifact — Equipment",
+      "types": [
+        "Artifact"
+      ],
+      "colors": [],
+      "colorIdentity": [],
+      "power": null,
+      "toughness": null,
+      "rarity": "rare",
+      "set": "Star Trek Commander",
+      "oracleText": "Equipped creature gets +1/-1.\nWhenever equipped creature dies, draw two cards.\nEquip {1}",
+      "edhrecRank": 38,
+      "image": "https://cards.scryfall.io/normal/front/e/1/e1da8b79-249b-439a-a0ad-c8784bd716df.jpg?1793021175",
+      "art": "https://cards.scryfall.io/art_crop/front/e/1/e1da8b79-249b-439a-a0ad-c8784bd716df.jpg?1793021175",
+      "scryfall": "https://scryfall.com/card/trc/498/skullclamp?utm_source=api"
+    },
+    {
+      "id": 42,
+      "name": "Sol Ring",
+      "manaCost": "{1}",
+      "manaValue": 1,
+      "typeLine": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "colors": [],
+      "colorIdentity": [],
+      "power": null,
+      "toughness": null,
+      "rarity": "uncommon",
+      "set": "Star Trek Commander",
+      "oracleText": "{T}: Add {C}{C}.",
+      "edhrecRank": 1,
+      "image": "https://cards.scryfall.io/normal/front/f/c/fc817e07-c1f3-469f-9cf7-0945dea7400f.jpg?1793021181",
+      "art": "https://cards.scryfall.io/art_crop/front/f/c/fc817e07-c1f3-469f-9cf7-0945dea7400f.jpg?1793021181",
+      "scryfall": "https://scryfall.com/card/trc/499/sol-ring?utm_source=api"
+    },
+    {
+      "id": 43,
+      "name": "Spore Frog",
+      "manaCost": "{G}",
+      "manaValue": 1,
+      "typeLine": "Creature — Frog",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "G"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "power": 1,
+      "toughness": 1,
+      "rarity": "common",
+      "set": "Modern Horizons",
+      "oracleText": "Sacrifice this creature: Prevent all combat damage that would be dealt this turn.",
+      "edhrecRank": 1151,
+      "image": "https://cards.scryfall.io/normal/front/6/d/6d42fd52-34ea-4d1b-80dc-58fb0593bb5b.jpg?1783933092",
+      "art": "https://cards.scryfall.io/art_crop/front/6/d/6d42fd52-34ea-4d1b-80dc-58fb0593bb5b.jpg?1783933092",
+      "scryfall": "https://scryfall.com/card/mh1/180/spore-frog?utm_source=api"
+    },
+    {
+      "id": 44,
+      "name": "Sun Titan",
+      "manaCost": "{4}{W}{W}",
+      "manaValue": 6,
+      "typeLine": "Creature — Giant",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "power": 6,
+      "toughness": 6,
+      "rarity": "mythic",
+      "set": "Star Trek Commander",
+      "oracleText": "Vigilance\nWhenever this creature enters or attacks, you may return target permanent card with mana value 3 or less from your graveyard to the battlefield.",
+      "edhrecRank": 316,
+      "image": "https://cards.scryfall.io/normal/front/f/0/f03f6cab-3800-4b90-921a-01f384cef35f.jpg?1793281319",
+      "art": "https://cards.scryfall.io/art_crop/front/f/0/f03f6cab-3800-4b90-921a-01f384cef35f.jpg?1793281319",
+      "scryfall": "https://scryfall.com/card/trc/428/sun-titan?utm_source=api"
+    },
+    {
+      "id": 45,
+      "name": "Swords to Plowshares",
+      "manaCost": "{W}",
+      "manaValue": 1,
+      "typeLine": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "power": null,
+      "toughness": null,
+      "rarity": "uncommon",
+      "set": "Star Trek Commander",
+      "oracleText": "Exile target creature. Its controller gains life equal to its power.",
+      "edhrecRank": 11,
+      "image": "https://cards.scryfall.io/normal/front/4/6/4645eebf-c9fc-4ee7-b646-61dc1205b4b0.jpg?1793111861",
+      "art": "https://cards.scryfall.io/art_crop/front/4/6/4645eebf-c9fc-4ee7-b646-61dc1205b4b0.jpg?1793111861",
+      "scryfall": "https://scryfall.com/card/trc/429/swords-to-plowshares?utm_source=api"
+    },
+    {
+      "id": 46,
+      "name": "Teferi, Temporal Archmage",
+      "manaCost": "{4}{U}{U}",
+      "manaValue": 6,
+      "typeLine": "Legendary Planeswalker — Teferi",
+      "types": [
+        "Planeswalker"
+      ],
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "power": null,
+      "toughness": null,
+      "rarity": "rare",
+      "set": "Commander Masters",
+      "oracleText": "+1: Look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.\n−1: Untap up to four target permanents.\n−10: You get an emblem with \"You may activate loyalty abilities of planeswalkers you control on any player's turn any time you could cast an instant.\"\nTeferi, Temporal Archmage can be your commander.",
+      "edhrecRank": 3888,
+      "image": "https://cards.scryfall.io/normal/front/3/6/368c6e60-804c-447c-bc2b-ac9dc4cab5e7.jpg?1783915687",
+      "art": "https://cards.scryfall.io/art_crop/front/3/6/368c6e60-804c-447c-bc2b-ac9dc4cab5e7.jpg?1783915687",
+      "scryfall": "https://scryfall.com/card/cmm/125/teferi-temporal-archmage?utm_source=api"
+    },
+    {
+      "id": 47,
+      "name": "Thassa's Oracle",
+      "manaCost": "{U}{U}",
+      "manaValue": 2,
+      "typeLine": "Creature — Merfolk Wizard",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "U"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "power": 1,
+      "toughness": 3,
+      "rarity": "rare",
+      "set": "Theros Beyond Death",
+      "oracleText": "When this creature enters, look at the top X cards of your library, where X is your devotion to blue. Put up to one of them on top of your library and the rest on the bottom of your library in a random order. If X is greater than or equal to the number of cards in your library, you win the game. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)",
+      "edhrecRank": 461,
+      "image": "https://cards.scryfall.io/normal/front/7/2/726e8b29-13e9-4138-b6a9-d2a0d8188d1c.jpg?1783931575",
+      "art": "https://cards.scryfall.io/art_crop/front/7/2/726e8b29-13e9-4138-b6a9-d2a0d8188d1c.jpg?1783931575",
+      "scryfall": "https://scryfall.com/card/thb/73/thassas-oracle?utm_source=api"
+    },
+    {
+      "id": 48,
+      "name": "The Ur-Dragon",
+      "manaCost": "{4}{W}{U}{B}{R}{G}",
+      "manaValue": 9,
+      "typeLine": "Legendary Creature — Dragon Avatar",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "colorIdentity": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "power": 10,
+      "toughness": 10,
+      "rarity": "mythic",
+      "set": "Commander Masters",
+      "oracleText": "Eminence — As long as The Ur-Dragon is in the command zone or on the battlefield, other Dragon spells you cast cost {1} less to cast.\nFlying\nWhenever one or more Dragons you control attack, draw that many cards, then you may put a permanent card from your hand onto the battlefield.",
+      "edhrecRank": 2701,
+      "image": "https://cards.scryfall.io/normal/front/1/0/10d42b35-844f-4a64-9981-c6118d45e826.jpg?1783915607",
+      "art": "https://cards.scryfall.io/art_crop/front/1/0/10d42b35-844f-4a64-9981-c6118d45e826.jpg?1783915607",
+      "scryfall": "https://scryfall.com/card/cmm/361/the-ur-dragon?utm_source=api"
+    },
+    {
+      "id": 49,
+      "name": "Treasure Vault",
+      "manaCost": "",
+      "manaValue": 0,
+      "typeLine": "Artifact Land",
+      "types": [
+        "Artifact",
+        "Land"
+      ],
+      "colors": [],
+      "colorIdentity": [],
+      "power": null,
+      "toughness": null,
+      "rarity": "rare",
+      "set": "Adventures in the Forgotten Realms",
+      "oracleText": "{T}: Add {C}.\n{X}{X}, {T}, Sacrifice this land: Create X Treasure tokens.",
+      "edhrecRank": 463,
+      "image": "https://cards.scryfall.io/normal/front/a/0/a0931eb3-b403-4b1a-ad46-a7b0a51bb9a4.jpg?1783926431",
+      "art": "https://cards.scryfall.io/art_crop/front/a/0/a0931eb3-b403-4b1a-ad46-a7b0a51bb9a4.jpg?1783926431",
+      "scryfall": "https://scryfall.com/card/afr/261/treasure-vault?utm_source=api"
+    },
+    {
+      "id": 50,
+      "name": "Utvara Hellkite",
+      "manaCost": "{6}{R}{R}",
+      "manaValue": 8,
+      "typeLine": "Creature — Dragon",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "R"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "power": 6,
+      "toughness": 6,
+      "rarity": "mythic",
+      "set": "Ravnica Remastered",
+      "oracleText": "Flying\nWhenever a Dragon you control attacks, create a 6/6 red Dragon creature token with flying.",
+      "edhrecRank": 1523,
+      "image": "https://cards.scryfall.io/normal/front/d/f/df459109-d6ab-4b1d-9570-c7677ff4a014.jpg?1783913307",
+      "art": "https://cards.scryfall.io/art_crop/front/d/f/df459109-d6ab-4b1d-9570-c7677ff4a014.jpg?1783913307",
+      "scryfall": "https://scryfall.com/card/rvr/129/utvara-hellkite?utm_source=api"
+    },
+    {
+      "id": 51,
+      "name": "Vampire Nighthawk",
+      "manaCost": "{1}{B}{B}",
+      "manaValue": 3,
+      "typeLine": "Creature — Vampire Shaman",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "power": 2,
+      "toughness": 3,
+      "rarity": "uncommon",
+      "set": "Foundations",
+      "oracleText": "Flying\nDeathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nLifelink (Damage dealt by this creature also causes you to gain that much life.)",
+      "edhrecRank": 1754,
+      "image": "https://cards.scryfall.io/normal/front/7/a/7aff07f9-9528-4149-9af0-f4e3c66c9dc5.jpg?1787562825",
+      "art": "https://cards.scryfall.io/art_crop/front/7/a/7aff07f9-9528-4149-9af0-f4e3c66c9dc5.jpg?1787562825",
+      "scryfall": "https://scryfall.com/card/fdn/757/vampire-nighthawk?utm_source=api"
+    },
+    {
+      "id": 52,
+      "name": "Victimize",
+      "manaCost": "{2}{B}",
+      "manaValue": 3,
+      "typeLine": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "colors": [
+        "B"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "power": null,
+      "toughness": null,
+      "rarity": "uncommon",
+      "set": "Tarkir: Dragonstorm Commander",
+      "oracleText": "Choose two target creature cards in your graveyard. Sacrifice a creature. If you do, return the chosen cards to the battlefield tapped.",
+      "edhrecRank": 130,
+      "image": "https://cards.scryfall.io/normal/front/e/e/ee008d81-df28-49a8-917d-44f66527e469.jpg?1783907079",
+      "art": "https://cards.scryfall.io/art_crop/front/e/e/ee008d81-df28-49a8-917d-44f66527e469.jpg?1783907079",
+      "scryfall": "https://scryfall.com/card/tdc/198/victimize?utm_source=api"
+    },
+    {
+      "id": 53,
+      "name": "Yuriko, the Tiger's Shadow",
+      "manaCost": "{1}{U}{B}",
+      "manaValue": 3,
+      "typeLine": "Legendary Creature — Human Ninja",
+      "types": [
+        "Creature"
+      ],
+      "colors": [
+        "B",
+        "U"
+      ],
+      "colorIdentity": [
+        "B",
+        "U"
+      ],
+      "power": 1,
+      "toughness": 3,
+      "rarity": "rare",
+      "set": "Commander Masters",
+      "oracleText": "Commander ninjutsu {U}{B} ({U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand or the command zone tapped and attacking.)\nWhenever a Ninja you control deals combat damage to a player, reveal the top card of your library and put that card into your hand. Each opponent loses life equal to that card's mana value.",
+      "edhrecRank": 2562,
+      "image": "https://cards.scryfall.io/normal/front/f/e/fe9be3e0-076c-4703-9750-2a6b0a178bc9.jpg?1791803568",
+      "art": "https://cards.scryfall.io/art_crop/front/f/e/fe9be3e0-076c-4703-9750-2a6b0a178bc9.jpg?1791803568",
+      "scryfall": "https://scryfall.com/card/cmm/364/yuriko-the-tigers-shadow?utm_source=api"
+    }
+  ],
+  "decks": [
+    {
+      "id": 1,
+      "name": "Atraxa",
+      "commander": 3,
+      "cards": [
+        15,
+        14,
+        42,
+        11,
+        51,
+        45,
+        44,
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Kaalia",
+      "commander": 23,
+      "cards": [
+        1,
+        50,
+        22,
+        42,
+        25,
+        40,
+        36,
+        7
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Edgar Markov",
+      "commander": 16,
+      "cards": [
+        51,
+        5,
+        42,
+        2,
+        19,
+        41,
+        6,
+        39
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Meren",
+      "commander": 27,
+      "cards": [
+        17,
+        38,
+        42,
+        52,
+        34,
+        30,
+        43,
+        21
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Korvold",
+      "commander": 24,
+      "cards": [
+        26,
+        49,
+        38,
+        42,
+        5,
+        8,
+        11,
+        28
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Muldrotha",
+      "commander": 29,
+      "cards": [
+        17,
+        30,
+        42,
+        31,
+        43,
+        35,
+        11,
+        12
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Yuriko",
+      "commander": 53,
+      "cards": [
+        32,
+        9,
+        42,
+        37,
+        13,
+        47,
+        31,
+        12
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Prosper",
+      "commander": 33,
+      "cards": [
+        25,
+        42,
+        13,
+        26,
+        10,
+        21,
+        5,
+        28
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Ur-Dragon",
+      "commander": 48,
+      "cards": [
+        40,
+        7,
+        50,
+        42,
+        11,
+        22,
+        4,
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Ghave",
+      "commander": 20,
+      "cards": [
+        15,
+        41,
+        38,
+        42,
+        5,
+        11,
+        51,
+        44
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Teferi",
+      "commander": 46,
+      "cards": [
+        37,
+        12,
+        31,
+        42,
+        28,
+        47,
+        30,
+        45
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Ezuri",
+      "commander": 18,
+      "cards": [
+        4,
+        11,
+        38,
+        42,
+        35,
+        17,
+        15,
+        43
+      ]
+    }
+  ]
+}

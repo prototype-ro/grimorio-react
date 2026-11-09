@@ -2,6 +2,13 @@
 
 Atividade 03 (React + Vite). A Pokédex foi adaptada para cartas de **Magic: The Gathering**, com autorização do professor.
 
+## Autores
+
+Dupla, em Pair Programming:
+
+- [prototype-ro](https://github.com/prototype-ro)
+- [JTeixeiraz](https://github.com/JTeixeiraz)
+
 ## Como executar
 
 ```bash

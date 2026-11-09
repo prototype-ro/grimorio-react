@@ -37,6 +37,7 @@ Abra `http://localhost:5173` no navegador. Para gerar o build: `npm run build`.
 - Detalhes em modal: imagem, tipo, texto, raridade, set e barras de atributos
 - Seção Decks: 12 decks, com comandante, insígnias e cartas relacionadas (clique abre os detalhes da carta)
 - Mensagem quando nenhuma carta é encontrada
+- Comparação de duas cartas lado a lado (botão ⇄ no card), com destaque no melhor valor de cada atributo
 - Extras: favoritos (salvos no `localStorage`), ordenação, carta aleatória, tema claro/escuro, layout responsivo
 
 ## Conceitos de React usados

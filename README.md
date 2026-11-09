@@ -31,6 +31,7 @@ Abra `http://localhost:5173` no navegador. Para gerar o build: `npm run build`.
 
 ## Funcionalidades
 
+- Visão **Pokédex** (padrão): carta grande em foco com inclinação 3D, brilho foil (mais forte em raras e míticas) e virada ao clicar, faixa de miniaturas e navegação por setas ← →. A visão em **Grade** continua disponível pelo botão no topo
 - Lista de cartas com número, nome, cores, custo de mana, poder, resistência e CMC
 - Pesquisa por nome ou número, atualizada a cada tecla
 - Filtro por cor

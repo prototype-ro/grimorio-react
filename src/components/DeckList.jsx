@@ -23,7 +23,7 @@ export default function DeckList({ decks, cardsById, onSelectCard }) {
                   {identity.length === 0 ? <span className="meta">0 insígnias</span> : identity.map((c) => (
                     <span key={c} className="pip" style={{ '--tone': COLOR_INFO[c].css }} title={COLOR_INFO[c].label} />
                   ))}
-                  <span className="meta">{identity.length} insígnia{identity.length === 1 ? '' : 's'} · {deck.cards.length} cartas</span>
+                  <span className="meta">{identity.length} insígnia{identity.length === 1 ? '' : 's'} · {deck.cards.length + 1} cartas</span>
                 </p>
               </div>
             </button>
